@@ -3,8 +3,8 @@ import FullCalendar, { DateClickArg, EventInput } from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import { gsap } from "gsap";
-import MeetingCard from "../Meeting/MeetingCard";
-import MeetingModal from "../Meeting/MeetingModal";
+import MeetingCard from "../meeting/MeetingCard";
+import MeetingModal from "../meeting/MeetingModal";
 
 interface Meeting {
   id: number;
