@@ -30,11 +30,6 @@ import { DealsPage } from './pages/deals/DealsPage';
 // Chat Pages
 import { ChatPage } from './pages/chat/ChatPage';
 
-
-
-
-
-
 // ////// Calendar Pages 
 import CalendarPage from "./pages/calendar/CalendarPage";
 
@@ -42,7 +37,6 @@ import CalendarPage from "./pages/calendar/CalendarPage";
 import VideoCallPage from "./pages/videoCall/VideoCallPage";
 
 import { Payments } from "./pages/payments/Payments";
-// import { OTP } from "./pages/otp/OTP";
 
 function App() {
   return (
@@ -124,9 +118,7 @@ function App() {
             <Route path="entrepreneur" element={<EntrepreneurDashboard />} />
             <Route path="investor" element={<InvestorDashboard />} />
             <Route path="payments" element={<Payments />} />
-            {/* <Route path="otp" element={<OTP />} /> */}
           </Route>
-
 
         </Routes>
       </Router>
